@@ -1,0 +1,26 @@
+{
+  "name": "AngularModulesTest",
+  "version": "1.0.0",
+  "authors": [
+    "david.recuencogadea@gmail.com"
+  ],
+  "description": "Simple example of module dependencies and interaction",
+  "main": "app/js/app.js",
+  "keywords": [
+    "angular",
+    "modules",
+    "services"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3"
+  }
+}

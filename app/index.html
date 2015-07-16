@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <script src="bower/angular/angular.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="../module1/js/mod1.js"></script>
+  <script src="../module2/js/mod2.js"></script>
+</head>
+<body data-ng-app="app">
+
+<div data-ng-controller="MainCtrl">
+  <input type="text" data-ng-model="input" data-ng-change="update()"/>
+  <p data-ng-bind="greeting1"></p>
+  <p data-ng-bind="greeting2"></p>
+</div>
+
+</body>
+</html>
